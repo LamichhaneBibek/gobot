@@ -16,11 +16,11 @@ GoBot is a versatile Telegram bot framework written in Golang, providing develop
         mkdir mytelegrambot
         cd mytelegrambot
 
-    # Initialize a new GoBot project
-        go mod init gobot
-
     # Clone the repo
         git clone git@github.com:LamichhaneBibek/gobot.git
+        
+    # Install dependencies
+        go mod tidy
 
     # Run the bot
         go run main.go
